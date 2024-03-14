@@ -5,8 +5,9 @@ Used to launch games that are included in the module.
 .DESCRIPTION
 A simple module to launch game scripts included in the module directory.
 
-.PARAMETER GameName
-The name of the game you want to play - must be defined in the validation set.
+.NOTES
+Start a new game with the New-Game cmdlet followed by the name of the game. For example: New-Game -GameName TicTacToe
+
 #>
 
 function New-Game{
