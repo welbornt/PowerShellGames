@@ -13,9 +13,9 @@ $global:Ties = 0
 # Print the current game board
 function PrintBoard {
     Write-Output "$($BoardEntries[0])|$($BoardEntries[1])|$($BoardEntries[2])"
-    Write-Output "_____"
+    Write-Output "-----"
     Write-Output "$($BoardEntries[3])|$($BoardEntries[4])|$($BoardEntries[5])"
-    Write-Output "_____"
+    Write-Output "-----"
     Write-Output "$($BoardEntries[6])|$($BoardEntries[7])|$($BoardEntries[8])`n"
 }
 
